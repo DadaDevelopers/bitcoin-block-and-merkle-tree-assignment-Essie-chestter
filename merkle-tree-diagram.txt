@@ -1,0 +1,19 @@
+                Merkle Root
+                    |
+           +--------+--------+
+           |                 |
+        HashAB             HashCD
+           |                 |
+       +---+---+         +---+---+
+       |       |         |       |
+       TxA     TxB       TxC     TxD
+# tree details
+Transaction A (TxA): a3f1b9c4d2e7f8a91c0b3d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5
+Transaction B (TxB): b7e4c2a1d9f8e6c5b4a3d2f1c0b9a8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1
+Transaction C (TxC): c9d8e7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4e3f2a1b0c9d8
+Transaction D (TxD): d1c2b3a4f5e6d7c8b9a0e1f2d3c4b5a6f7e8d9c0b1a2c3d4e5f6a7b8c9d0e1f2
+
+Hash AB: 3c9dfb30df57687339ab00231459a3d7bd56df96b1709ac18ad79cb641506ed7
+Hash CD: a66f709e040b26ddd5ae281176637543091a288e2dbd8c320987ec53f6a075c5
+
+Merkle Root: 1fe9dc4e13a7967fb2ff3c62b54a2a129ec325d97c28c9d4357a0e08e49edf6e
